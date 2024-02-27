@@ -1,12 +1,36 @@
+/* Navigationsleiste */
 ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul.navbar li {
+  float: left;
+  margin-right: 0%;
+}
+
+ul.navbar li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.activebar) {
+  background-color: #ddd;
+}
+
+ul.navbar li a.activebar {
+  color: white;
+  background-color: #790000;
+}
+
+/* Laufbahnliste */
 ul.laufbahn {
     list-style-type: none;
     text-align: center;
@@ -17,56 +41,39 @@ ul.laufbahn {
     text-align: center;
     margin-left: 0%;
     margin-right: 10%;
-    font-size: 1.5em;
-  }
-  
-  li a {
-    float: left;
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.activebar) {
-    background-color: #ddd;
-  }
-  
-  li a.activebar {
-    color: white;
-    background-color: #790000;
+    font-size: 1.5vw;
   }
 
-  img {
-    display:flexbox;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    vertical-align: baseline;
+/* Standard formatierungen */
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+h1 {
+  text-align: justify;
+  margin-top:30%;
+  margin-bottom: 5%;
+  font-size: 6vw;
+}
+
+h2 {
+  text-align: justify;
+  margin-top:0%;
+  margin-bottom: 40%;
+  font-size: 3vw;
   }
 
-  h1 {
-    text-align: justify;
-    margin-top:30%;
-    margin-bottom: 5%;
-    font-size: 6em;
-  }
+p {
+  text-align: center;
+  margin-top:50%;
+  margin-bottom: 50%;
+  font-size: 1.5vw;
+}
 
-  h2 {
-    text-align: justify;
-    margin-top:0%;
-    margin-bottom: 40%;
-    font-size: 3em;
-  }
-
-  p {
-    text-align: center;
-    margin-top:50%;
-    margin-bottom: 50%;
-    font-size: 1.5em;
-  }
-
+/* Divs */
   .headdiv {
     width: 100%;
     overflow:auto;
@@ -93,6 +100,7 @@ ul.laufbahn {
     align-self: center;
   }
 
+/* Handyansicht */
   @media screen and (max-width: 800px) {
     ul.navbar li.right, ul.navbar li {
         float: none;
@@ -100,6 +108,6 @@ ul.laufbahn {
     }
 
     .leftdiv, .rightdiv {
-        width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 90%;
     }
   }
