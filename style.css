@@ -1,0 +1,105 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+ul.laufbahn {
+    list-style-type: none;
+    text-align: center;
+}
+
+  li {
+    float: center;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 10%;
+    font-size: 1.5em;
+  }
+  
+  li a {
+    float: left;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.activebar) {
+    background-color: #ddd;
+  }
+  
+  li a.activebar {
+    color: white;
+    background-color: #790000;
+  }
+
+  img {
+    display:flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    vertical-align: baseline;
+  }
+
+  h1 {
+    text-align: justify;
+    margin-top:30%;
+    margin-bottom: 5%;
+    font-size: 6em;
+  }
+
+  h2 {
+    text-align: justify;
+    margin-top:0%;
+    margin-bottom: 40%;
+    font-size: 3em;
+  }
+
+  p {
+    text-align: center;
+    margin-top:50%;
+    margin-bottom: 50%;
+    font-size: 1.5em;
+  }
+
+  .headdiv {
+    width: 100%;
+    overflow:auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+  }
+
+  .leftdiv {
+    float: left;
+    width: 40%;
+    padding: 5%;
+    height: 100%;
+    align-self: center;
+  }
+  
+  .rightdiv {
+    float: left;
+    width: 40%;
+    padding: 5%;
+    height:fit-content;
+    align-self: center;
+  }
+
+  @media screen and (max-width: 800px) {
+    ul.navbar li.right, ul.navbar li {
+        float: none;
+        margin-right: 0%;
+    }
+
+    .leftdiv, .rightdiv {
+        width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
