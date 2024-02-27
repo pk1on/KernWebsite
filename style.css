@@ -105,9 +105,22 @@ p {
     ul.navbar li.right, ul.navbar li {
         float: none;
         margin-right: 0%;
+        font-size: 3vw;
     }
 
     .leftdiv, .rightdiv {
         width: 90%;
+    }
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 6vw;
+    }
+    p {
+      font-size: 3vw;
+    }
+    li {
+      font-size: 3vw;
     }
   }
