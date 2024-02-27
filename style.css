@@ -45,6 +45,10 @@ ul.laufbahn {
   }
 
 /* Standard formatierungen */
+body {
+  margin:0%;
+}
+
 img {
   display:block;
   margin-left: auto;
@@ -74,31 +78,43 @@ p {
 }
 
 /* Divs */
-  .headdiv {
-    width: 100%;
-    overflow:auto;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: stretch;
-    justify-content: center;
-  }
+.headdiv {
+  width: 100%;
+  overflow:auto;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+}
 
-  .leftdiv {
-    float: left;
-    width: 40%;
-    padding: 5%;
-    height: 100%;
-    align-self: center;
-  }
+.leftdiv {
+  float: left;
+  width: 40%;
+  padding: 5%;
+  height: 100%;
+  align-self: center;
+}
   
-  .rightdiv {
-    float: left;
-    width: 40%;
-    padding: 5%;
-    height:fit-content;
-    align-self: center;
-  }
+.rightdiv {
+  float: left;
+  width: 40%;
+  padding: 5%;
+  height:fit-content;
+  align-self: center;
+}
+
+.b1 {
+  background-color: darkblue;
+}
+
+.b2 {
+  background-color: rgb(139, 0, 0);
+}
+
+.b3 {
+  background-color: darkblue;
+}
 
 /* Handyansicht */
   @media screen and (max-width: 800px) {
