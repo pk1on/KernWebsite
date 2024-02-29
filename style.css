@@ -44,7 +44,7 @@ ul.laufbahn {
     text-align: center;
     margin-left: 0%;
     margin-right: 10%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: "URW Bookman L", Bookman, serif;
   }
 
@@ -92,6 +92,7 @@ p {
   font-size: 1.2vw;
   font-family: "URW Bookman L", Bookman, serif;
   width: 80%;
+  line-height: 1.6;
 }
 
 /* Divs */
@@ -117,6 +118,14 @@ p {
   float: left;
   width: 40%;
   padding: 5%;
+  height:fit-content;
+  align-self: center;
+}
+
+.smalldiv {
+  float: left;
+  width: 20%;
+  padding: 2.5%;
   height:fit-content;
   align-self: center;
 }
