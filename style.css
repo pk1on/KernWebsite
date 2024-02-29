@@ -44,7 +44,7 @@ ul.laufbahn {
     text-align: center;
     margin-left: 0%;
     margin-right: 10%;
-    font-size: 1.2vw;
+    font-size: 1.2em;
     font-family: "URW Bookman L", Bookman, serif;
   }
 
@@ -64,7 +64,7 @@ h1 {
   text-align: justify;
   margin-top:30%;
   margin-bottom: 5%;
-  font-size: 6vw;
+  font-size: 6em;
   font-family: "URW Bookman L", Bookman, serif;
 }
 
@@ -72,7 +72,7 @@ h2 {
   text-align: justify;
   margin-top:0%;
   margin-bottom: 40%;
-  font-size: 3vw;
+  font-size: 3em;
   font-family: "URW Bookman L", Bookman, serif;
   }
 
@@ -83,6 +83,7 @@ h4 {
   font-weight: normal;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-size: 1.2em;
 }
 
 p {
@@ -91,7 +92,7 @@ p {
   margin-bottom: 50%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.2vw;
+  font-size: 1.2em;
   font-family: "URW Bookman L", Bookman, serif;
   width: 80%;
   line-height: 1.6;
@@ -150,26 +151,26 @@ p {
 }
 
 /* Handyansicht */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     ul.navbar li.right, ul.navbar li {
         float: none;
         margin-right: 0%;
-        font-size: 6vw;
+        /*font-size: 6em;*/
     }
 
     .leftdiv, .rightdiv {
         width: 90%;
-    }
+    }/*
     h1 {
-      font-size: 12vw;
+      font-size: 12em;
     }
     h2 {
-      font-size: 6vw;
+      font-size: 6em;
     }
     p {
-      font-size: 6vw;
+      font-size: 6em;
     }
     li {
-      font-size: 6vw;
-    }
+      font-size: 6em;
+    }*/
   }
