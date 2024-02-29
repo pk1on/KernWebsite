@@ -2,10 +2,13 @@
 ul.navbar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1%;
   overflow: hidden;
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 ul.navbar li {
@@ -27,7 +30,7 @@ ul.navbar li a:hover:not(.activebar) {
 
 ul.navbar li a.activebar {
   color: white;
-  background-color: #790000;
+  background-color: rgb(90, 41, 59);
 }
 
 /* Laufbahnliste */
@@ -42,6 +45,7 @@ ul.laufbahn {
     margin-left: 0%;
     margin-right: 10%;
     font-size: 1.5vw;
+    font-family: "URW Bookman L", Bookman, serif;
   }
 
 /* Standard formatierungen */
@@ -53,7 +57,7 @@ img {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
 }
 
 h1 {
@@ -61,6 +65,7 @@ h1 {
   margin-top:30%;
   margin-bottom: 5%;
   font-size: 6vw;
+  font-family: "URW Bookman L", Bookman, serif;
 }
 
 h2 {
@@ -68,13 +73,25 @@ h2 {
   margin-top:0%;
   margin-bottom: 40%;
   font-size: 3vw;
+  font-family: "URW Bookman L", Bookman, serif;
   }
+
+h4 {
+  font-family: "URW Bookman L", Bookman, serif;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 p {
   text-align: center;
   margin-top:50%;
   margin-bottom: 50%;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  font-family: "URW Bookman L", Bookman, serif;
+  width: 80%;
 }
 
 /* Divs */
@@ -92,7 +109,7 @@ p {
   float: left;
   width: 40%;
   padding: 5%;
-  height: 100%;
+  height:fit-content;
   align-self: center;
 }
   
@@ -105,15 +122,20 @@ p {
 }
 
 .b1 {
-  background-color: darkblue;
+  background-color: rgb(224, 188, 201);
 }
 
 .b2 {
-  background-color: rgb(139, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 .b3 {
-  background-color: darkblue;
+  background-color: rgb(224, 188, 201);
+}
+
+.b4 {
+  background-color: #666;
+  width: 100%;
 }
 
 /* Handyansicht */
