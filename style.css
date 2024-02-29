@@ -89,6 +89,8 @@ p {
   text-align: center;
   margin-top:50%;
   margin-bottom: 50%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.2vw;
   font-family: "URW Bookman L", Bookman, serif;
   width: 80%;
@@ -152,7 +154,7 @@ p {
     ul.navbar li.right, ul.navbar li {
         float: none;
         margin-right: 0%;
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     .leftdiv, .rightdiv {
@@ -165,9 +167,9 @@ p {
       font-size: 6vw;
     }
     p {
-      font-size: 3vw;
+      font-size: 6vw;
     }
     li {
-      font-size: 3vw;
+      font-size: 6vw;
     }
   }
